@@ -1,0 +1,78 @@
+.filter-product {
+	
+}
+
+	.filter-product .filter-tabs {
+		border-bottom: 1px solid #dedede;
+		list-style: none;
+		padding: 0px 65px 0px 0px;
+		margin: 10px 0px 20px 0px;
+	}
+		.filter-product .filter-tabs ul {
+			list-style: none;
+			margin: 0px;
+			padding: 0px;
+		}
+	
+		.filter-product .filter-tabs ul > li {
+		  float: left;
+		  margin-bottom: -1px;
+		}
+		
+			.filter-product .filter-tabs ul > li > a {
+			  margin: 10px 3px 0px 0px;
+			  border: 1px solid #dedede;
+			  border-radius: 2px 2px 0 0;
+			  background: #e6e6e6;
+			  background: -moz-linear-gradient(top, #ffffff 35%, #e6e6e6 100%);
+			  background: -webkit-gradient(linear, left top, left bottom, color-stop(35%,#ffffff), color-stop(100%,#e6e6e6));
+			  background: -webkit-linear-gradient(top, #ffffff 35%,#e6e6e6 100%);
+			  background: -o-linear-gradient(top, #ffffff 35%,#e6e6e6 100%);
+			  background: -ms-linear-gradient(top, #ffffff 35%,#e6e6e6 100%);
+			  background: linear-gradient(to bottom, #ffffff 35%,#e6e6e6 100%);
+			  padding: 10px 20px 10px 20px;
+			  font-size: 14px;
+			  position: relative;
+			  display: block;
+			}
+			
+			.filter-product .filter-tabs ul > li > a:hover {
+			  border-color: #eeeeee #eeeeee #e6e6e6;
+			}
+			
+			.filter-product .filter-tabs ul > li.active > a,
+			.filter-product .filter-tabs ul > li.active > a:hover,
+			.filter-product .filter-tabs ul > li.active > a:focus {
+			  color: #555555;
+			  cursor: default;
+			  background: #ffffff;
+			  border: 1px solid #dddddd;
+			  border-bottom-color: transparent;
+			}
+
+.tab-content {
+	position: relative;
+}
+				
+	.tab-content .prev-button, 
+	.tab-content .next-button {
+		margin: 0px 0px 0px 5px;
+		display: block;
+		width: 32px;
+		height: 32px;
+		background: url(../img/right.png) no-repeat;
+		position: absolute;
+		top: -60px;		
+		right: 0;
+	}
+		
+		.tab-content .prev-button {
+			right: 34px;
+			background: url(../img/left.png) no-repeat;
+		}
+			
+@media (max-width: 767px) {
+	.responsive .filter-product .filter-tabs {
+		margin: 10px 0px 20px 0px;
+	}
+}

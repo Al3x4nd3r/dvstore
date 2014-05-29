@@ -1,0 +1,10 @@
+2014-05-28 1:28:56 - PHP Warning:  fsockopen(): unable to connect to smtpout.secureserver.net:465 (Connection refused) in /home/d1v1c14/public_html/system/library/mail.php on line 153
+2014-05-28 1:28:56 - PHP Notice:  Error: Connection refused (111) in /home/d1v1c14/public_html/system/library/mail.php on line 156
+2014-05-28 16:25:29 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-28 16:26:56 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-28 16:27:15 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-28 16:28:10 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-28 16:28:24 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-28 16:28:41 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-28 16:28:57 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
+2014-05-29 12:31:53 - PHP Notice:  Array to string conversion in /home/d1v1c14/public_html/admin/view/template/module/megamenu.tpl on line 228
