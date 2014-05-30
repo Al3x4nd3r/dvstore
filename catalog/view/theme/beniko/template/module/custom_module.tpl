@@ -16,6 +16,29 @@ if($type == 1) {
 		echo '</div>';	
 	}	
 } else {
-	echo $text;
+
+	if($position == 'preface_fullwidth'){
+		$match='onlyonline';
+		$pos = stripos($text, $match);
+
+//		echo "Position=".$pos;
+//		echo $text;
+
+		if($pos == 4){
+			if(!$this->customer->isLogged()){
+				echo $text;
+			}
+		}
+		else{
+			echo $text;
+		}
+
+	}
+	else{
+		echo $text;
+	}
+
+	
+
 }
 ?>
