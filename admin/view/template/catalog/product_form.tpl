@@ -56,7 +56,7 @@
           <table class="form">
             <tr>
               <td><span class="required">*</span> <?php echo $entry_model; ?></td>
-              <td><input type="text" name="model" value="<?php echo $model; ?>" />
+              <td><input type="text" name="model" value="<?php if ($model != '') { echo $model; } else { echo date("YmdHis"); } ?>" />
                 <?php if ($error_model) { ?>
                 <span class="error"><?php echo $error_model; ?></span>
                 <?php } ?></td>
